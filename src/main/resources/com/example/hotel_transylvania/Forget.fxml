@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXPasswordField?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: black;" styleClass="background" stylesheets="@Home.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotel_transylvania.ForgetController">
+    <children>
+      <AnchorPane fx:id="emailConfirmation" prefHeight="720.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fx:id="emailError" fill="#ff8181" layoutX="555.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="185.60000000000002" />
+            <MFXTextField id="f7" fx:id="emailField" floatMode="BORDER" floatingText="Email" focusTraversable="false" layoutX="532.0" layoutY="255.0" onKeyReleased="#checkEmail" prefHeight="38.0" prefWidth="250.0" styleClass="field" stylesheets="@Styles/Style.css">
+               <textFill>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.8700000047683716" />
+               </textFill>
+            </MFXTextField>
+            <MFXButton fx:id="sendEmail" buttonType="RAISED" depthLevel="LEVEL3" layoutX="689.0" layoutY="304.0" onMouseClicked="#sendClicked" prefHeight="35.0" prefWidth="80.0" stylesheets="@Styles/Style.css" text="Send" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </MFXButton>
+            <Text fx:id="sendError" fill="#ff8181" layoutX="573.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="185.60000000000002" />
+            <Label layoutX="504.0" layoutY="180.0" prefHeight="30.0" prefWidth="311.0" text="Enter your registered e-mail" textFill="#9e7738" AnchorPane.leftAnchor="504.0" AnchorPane.rightAnchor="465.0">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="544.0" layoutY="389.0" text="A confirmation code will be sent to you shortly." textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="OtpCheck" prefHeight="720.0" prefWidth="1280.0" stylesheets="@Styles/Style.css" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="475.0" layoutY="184.0" text="Enter the 6 digit OTP sent to your e-mail" textFill="#9e7738">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <MFXTextField id="f7" fx:id="otp" floatMode="BORDER" floatingText="Enter OTP" focusTraversable="false" layoutX="548.0" layoutY="255.0" prefHeight="38.0" prefWidth="230.0" styleClass="field" stylesheets="@Styles/Style.css">
+               <textFill>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.8700000047683716" />
+               </textFill>
+            </MFXTextField>
+            <Text fx:id="otpError" fill="#ff8181" layoutX="551.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="139.80000000000018" />
+            <MFXButton fx:id="checkOtp" buttonType="RAISED" depthLevel="LEVEL3" layoutX="704.0" layoutY="320.0" onMouseClicked="#otpCheck" prefHeight="35.0" prefWidth="80.0" stylesheets="@Styles/Style.css" text="Next" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </MFXButton>
+            <Text fx:id="remains" fill="#ff8181" layoutX="546.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="153.60000000000002" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="ChangePassword" prefHeight="720.0" prefWidth="1280.0" stylesheets="@Styles/Style.css" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <MFXPasswordField id="f8" fx:id="passwordField" caretVisible="false" floatMode="BORDER" floatingText="Password" focusTraversable="false" layoutX="587.0" layoutY="274.0" onKeyReleased="#checkPassword" prefHeight="24.0" prefWidth="186.0" styleClass="field" stylesheets="@Styles/Style.css">
+               <textFill>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.8700000047683716" />
+               </textFill>
+            </MFXPasswordField>
+            <MFXPasswordField id="f9" fx:id="conPasswordField" caretVisible="false" floatMode="BORDER" floatingText="Confirm Password" focusTraversable="false" layoutX="587.0" layoutY="360.0" onKeyReleased="#checkConPassword" prefHeight="24.0" prefWidth="186.0" styleClass="field" stylesheets="@Styles/Style.css">
+               <textFill>
+                  <Color red="1.0" green="1.0" blue="1.0" opacity="0.8700000047683716" />
+               </textFill>
+            </MFXPasswordField>
+            <Text fx:id="passwordError" fill="#ff8181" layoutX="587.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="185.60000000000002" />
+            <Text fx:id="conPasswordError" fill="#ff8181" layoutX="587.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="185.60000000000002" />
+            <MFXButton fx:id="next" buttonType="RAISED" depthLevel="LEVEL3" layoutX="697.0" layoutY="439.0" onMouseClicked="#nextClicked" prefHeight="35.0" prefWidth="80.0" stylesheets="@Styles/Style.css" text="Next" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </MFXButton>
+            <Label layoutX="565.0" layoutY="190.0" text="Enter a new password" textFill="#9e7738">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+        <FontAwesomeIconView fx:id="back" fill="WHITE" glyphName="ARROW_LEFT" layoutX="819.0" layoutY="84.0" onMouseClicked="#backClicked" size="14.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </FontAwesomeIconView>
+        <FontAwesomeIconView fx:id="close" fill="WHITE" glyphName="CLOSE" onMouseClicked="#closeWindow" size="14.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </FontAwesomeIconView>
+    </children>
+</AnchorPane>

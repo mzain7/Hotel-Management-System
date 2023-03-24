@@ -1,0 +1,10 @@
+.btn{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-color:  rgb(235, 180, 28);
+}
+
+.btn:hover{
+        -fx-background-color: rgb(235,180,28);
+        -fx-text-fill: white;
+        -fx-cursor: hand;
+}

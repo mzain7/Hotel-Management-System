@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" prefHeight="720.0" prefWidth="1280.0" styleClass="field" stylesheets="@weddings.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotel_transylvania.WeddingController">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2446.0" prefWidth="1280.0" stylesheets="@weddings.css">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="-1.0" layoutY="565.0" stroke="WHITE" strokeType="INSIDE" width="1282.0" />
+            <ImageView fitHeight="342.0" fitWidth="1319.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@weddinBack.jpg" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.6" />
+               </effect>
+            </ImageView>
+            <Label layoutX="533.0" layoutY="171.0" text="Weddings" textFill="#bcad39">
+               <font>
+                  <Font name="Times New Roman" size="53.0" />
+               </font>
+            </Label>
+            <Label layoutX="391.0" layoutY="610.0" text="Book your Dream Wedding Now">
+               <font>
+                  <Font name="Times New Roman" size="38.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView fx:id="close" fill="WHITE" glyphName="CLOSE" layoutX="1248.0" layoutY="22.0" onMouseClicked="#closeWindow" size="14.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="10.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView fx:id="back" fill="WHITE" glyphName="ARROW_LEFT" layoutX="24.0" layoutY="29.0" onMouseClicked="#backClicked" size="14.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </FontAwesomeIconView>
+            <Label layoutX="116.0" layoutY="420.0" text="HOTEL TRANSYLVANIA">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="441.0" text="BOOKINGS &amp; RESERVATIONS">
+               <font>
+                  <Font name="Times New Roman" size="50.0" />
+               </font>
+            </Label>
+            <Separator layoutX="117.0" layoutY="510.0" prefWidth="200.0" />
+            <Label layoutX="588.0" layoutY="682.0" text="SCROLL DOWN">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="635.0" layoutY="703.0" text="V">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Rectangle fill="#e5d9a590" height="325.0" layoutX="155.0" layoutY="942.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="488.0" />
+            <Label layoutX="215.0" layoutY="980.0" text="SPACE &amp; SPLENDOUR" textFill="#8d8a27">
+               <font>
+                  <Font name="Constantia" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="325.0" fitWidth="491.0" layoutX="640.0" layoutY="942.0" pickOnBounds="true">
+               <image>
+                  <Image url="@weddinBack.jpg" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.6" />
+               </effect>
+            </ImageView>
+            <Label layoutX="191.0" layoutY="1015.0" text="Our magnificent ballroom is the perfect fairytale backdrop to your">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="193.0" layoutY="1034.0" text="day and has capacity for lavish weddings for up to 360 guests to">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="193.0" layoutY="1053.0" text="enjoy the unique experience of an Irish castle wedding.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="191.0" layoutY="1114.0" text="The ballroom is perfectly designed for smaller more intimate">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="191.0" layoutY="1152.0" text="any size wedding is just magical.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="191.0" layoutY="1133.0" text="numbers, with various room layouts &amp; set up styles offered,">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="307.0" layoutX="648.0" layoutY="951.0" stroke="WHITE" strokeType="INSIDE" style="-fx-fill: rgba(0,0,0,0);" width="472.0" />
+            <Button layoutX="488.0" layoutY="1208.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="131.0" styleClass="btn" text="EXPLORE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="325.0" fitWidth="488.0" layoutX="155.0" layoutY="1267.0" pickOnBounds="true">
+               <image>
+                  <Image url="@weddinBack.jpg" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.6" />
+               </effect>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="307.0" layoutX="163.0" layoutY="1276.0" stroke="WHITE" strokeType="INSIDE" style="-fx-fill: rgba(0,0,0,0);" width="472.0" />
+            <Rectangle fill="#e5d9a590" height="325.0" layoutX="645.0" layoutY="1267.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="488.0" />
+            <Label layoutX="705.0" layoutY="1305.0" text="WE'RE ALL YOURS" textFill="#8d8a27">
+               <font>
+                  <Font name="Constantia" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="681.0" layoutY="1340.0" text="Meet the Wedding Team here at Kilronan Castle Estate &amp; Spa,">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="683.0" layoutY="1359.0" text="ach one with years of invaluable experience from the wedding">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="683.0" layoutY="1378.0" text="industry. Each and every memebr of our team at your service">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="686.0" layoutY="1397.0" text="to ensure you have one of the most special day pf your life.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="681.0" layoutY="1467.0" text=" your expectations are exceeded and most of all to make sure that">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="681.0" layoutY="1448.0" text="This is a team that always go that extra mile for you, ensures that">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="903.0" layoutY="1533.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="206.0" styleClass="btn" text="MAKE AN ENQUIRY">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="685.0" layoutY="1486.0" text="your wedding experience is memorable for everyone.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle fill="#e5d9a590" height="418.0" layoutX="251.0" layoutY="1756.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="836.0" />
+            <Label layoutX="284.0" layoutY="1784.0" text="BOOK &amp; ENQUIRE" textFill="#8d8a27">
+               <font>
+                  <Font name="Constantia" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="359.0" layoutY="1833.0" />
+            <MFXTextField fx:id="name" floatMode="BORDER" floatingText="Name" layoutX="309.0" layoutY="1842.0" prefHeight="34.0" prefWidth="155.0" styleClass="field" />
+            <MFXTextField fx:id="email" floatMode="BORDER" floatingText="Email" layoutX="309.0" layoutY="1898.0" prefHeight="34.0" prefWidth="155.0" styleClass="field" />
+            <MFXTextField fx:id="namePar" floatMode="BORDER" floatingText="Partner's Name" layoutX="748.0" layoutY="1851.0" prefHeight="34.0" prefWidth="155.0" styleClass="field" />
+            <MFXTextField fx:id="emailPar" floatMode="BORDER" floatingText="Partner's Email" layoutX="748.0" layoutY="1907.0" prefHeight="34.0" prefWidth="155.0" styleClass="field" />
+            <MFXTextField fx:id="guests" floatMode="BORDER" floatingText="Estimated Guests" layoutX="555.0" layoutY="2003.0" prefHeight="34.0" prefWidth="155.0" styleClass="field" />
+            <Button layoutX="571.0" layoutY="2107.0" mnemonicParsing="false" onMouseClicked="#submitClicked" prefHeight="14.0" prefWidth="100.0" styleClass="btn" text="SUBMIT">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="144.0" layoutX="-5.0" layoutY="2302.0" stroke="BLACK" strokeType="INSIDE" width="1280.0" />
+            <Label layoutX="543.0" layoutY="2347.0" text="HOTEL TRANSYLVANIA" textFill="#948621">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="568.0" layoutY="2374.0" text="S  L  O  V  A  K  I  A" textFill="#948621">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

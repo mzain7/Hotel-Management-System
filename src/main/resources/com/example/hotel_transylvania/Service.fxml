@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@Services.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotel_transylvania.ServicesController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="735.0" opacity="0.47" stroke="BLACK" strokeType="INSIDE" width="1287.0" />
+      <Button fx:id="bookButton" layoutX="177.0" layoutY="105.0" mnemonicParsing="false" onAction="#bookingBtn" style="-fx-background-color: rgba(0,0,0,0);" text="Booking" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="servicesButton" layoutX="373.0" layoutY="105.0" mnemonicParsing="false" style="-fx-background-color: rgba(0,0,0,0);" text="Services" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="golfButton" layoutX="563.0" layoutY="105.0" mnemonicParsing="false" style="-fx-background-color: rgba(0,0,0,0);" text="Golf Club" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="galleryButton" layoutX="752.0" layoutY="105.0" mnemonicParsing="false" style="-fx-background-color: rgba(0,0,0,0);" text="Transylvania Gallery" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="usButton" layoutX="1034.0" layoutY="105.0" mnemonicParsing="false" style="-fx-background-color: rgba(0,0,0,0);" text="About Us " textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="192.0" fitWidth="367.0" layoutX="150.0" layoutY="398.0" pickOnBounds="true">
+         <image>
+            <Image url="@roomService.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="199.0" fitWidth="354.0" layoutX="798.0" layoutY="394.0" pickOnBounds="true">
+         <image>
+            <Image url="@orderFood.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="230.0" layoutY="418.0" prefHeight="47.0" prefWidth="197.0" text="Room Service" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="876.0" layoutY="418.0" text="Food Order" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="bookButton11" layoutX="259.0" layoutY="535.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="149.0" styleClass="btn" text="Services">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bookButton2" layoutX="893.0" layoutY="535.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="165.0" styleClass="btn" stylesheets="@Homepage.css" text="Order Now">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="602.0" layoutY="14.0" text="HOTEL TRANSYLVANIA" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="586.0" layoutY="35.0" opacity="0.33" prefHeight="3.0" prefWidth="192.0" />
+      <Label layoutX="621.0" layoutY="38.0" text="S  L  O  V  A  K  I  A" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <FontAwesomeIconView fx:id="close" fill="WHITE" glyphName="CLOSE" layoutX="1265.0" layoutY="32.0" onMouseClicked="#closeWindow" size="14.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="back" fill="WHITE" glyphName="ARROW_LEFT" layoutX="24.0" layoutY="29.0" onMouseClicked="#backClicked" size="14.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+   </children>
+</AnchorPane>

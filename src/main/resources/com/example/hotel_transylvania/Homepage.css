@@ -1,0 +1,27 @@
+.root{
+    -fx-background-image: url("loading1.jpg");
+    -fx-background-position: center;
+}
+
+.btn {
+  -fx-border-radius: 4px;
+  -fx-background-color: #ffffff;
+  -fx-cursor: hand;
+}
+
+}
+.btn:hover{
+        -fx-background-color:  #000000;
+        -fx-border-color: transparent transparent #cdbf54 transparent;
+        -fx-text-fill: white;
+}
+
+.button:hover{
+        -fx-background-color:  #000000;
+        -fx-border-color: transparent transparent #8f740a transparent;
+        -fx-text-fill: white;
+}
+
+#signInLabel{
+    -fx-alignment: center;
+}

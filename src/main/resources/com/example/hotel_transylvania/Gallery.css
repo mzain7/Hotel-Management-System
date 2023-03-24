@@ -1,0 +1,15 @@
+.btn {
+  -fx-border-radius: 4px;
+  -fx-background-color: #ffffff;
+  -fx-cursor: hand;
+  -fx-background-color: rgba(0,0,0,0);
+}
+
+.btn:hover {
+  -fx-border-color: transparent transparent #cdbf54  transparent;
+}
+
+#galleryButton {
+  -fx-border-color: transparent transparent #8f740a transparent;
+  -fx-border-width: 1px;
+}

@@ -1,0 +1,67 @@
+.field {
+-fx-background-color: transparent;
+-fx-border-color:  #8F6620;
+-fx-border-width:  0px 0px 2px 0px;
+-fx-border-radius: 0px;
+-fx-text-fill: white;
+/*
+-fx-padding: 5px 5px 0px 5px;
+*/
+}
+
+.field .floating-text {
+-fx-background-color: transparent;
+-fx-text-fill: #a9a9a9;
+}
+
+.field:floating .floating-text {
+	-fx-background-color: transparent;
+}
+
+/*
+#f1:floating .floating-text {
+	-fx-background-color: transparent;
+}
+#f2:floating .floating-text {
+	-fx-background-color: #2E31A6;
+}
+#f3:floating .floating-text {
+	-fx-background-color: #0F4E9D;
+}
+#f4:floating .floating-text {
+	-fx-background-color: #0F4E9D;
+}
+#f5:floating .floating-text {
+	-fx-background-color: #17409C;
+}
+#f6:floating .floating-text {
+	-fx-background-color: #17409C;
+}
+#f7:floating .floating-text {
+	-fx-background-color: #20309A;
+}
+#f8:floating .floating-text {
+	-fx-background-color: #292299;
+}
+#f9:floating .floating-text {
+	-fx-background-color: #292299;
+}
+*/
+
+
+.field .eye-icon{
+    -mfx-color: #a9a9a9;
+}
+
+.button{
+/*
+    -fx-background-color:  linear-gradient(#008cff, #6942ef);
+*/
+    -fx-background-color:  linear-gradient(#9e7738, #e7d93e);
+
+    -fx-background-radius: 26px;
+}
+.button:hover{
+    -fx-background-color:  linear-gradient(#e7d93e, #9e7738);
+
+}

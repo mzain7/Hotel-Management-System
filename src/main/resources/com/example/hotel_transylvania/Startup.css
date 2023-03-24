@@ -1,0 +1,14 @@
+ #startup{
+    -fx-background-image: url("Startup.png") ;
+    -fx-background-position: center;
+ }
+
+.btn:hover{
+        -fx-background-color:  #9e7738;
+        -fx-text-fill: white;
+}
+
+#loading{
+    -fx-background-image: url("loading.jpg");
+    -fx-background-position: center;
+}

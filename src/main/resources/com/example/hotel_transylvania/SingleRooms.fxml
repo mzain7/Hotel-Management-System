@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: white;" stylesheets="@SingleRooms.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotel_transylvania.SingleRoomsController">
+   <children>
+      <ImageView fitHeight="176.0" fitWidth="1282.0" pickOnBounds="true" style="-fx-opacity: 0.7;">
+         <image>
+            <Image url="@bookRoombackss.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="448.0" layoutY="201.0" stroke="BLACK" strokeType="INSIDE" width="1289.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="176.0" layoutY="-2.0" opacity="0.67" stroke="BLACK" strokeType="INSIDE" width="1289.0" />
+      <ImageView fitHeight="448.0" fitWidth="654.0" layoutY="201.0" pickOnBounds="true">
+         <image>
+            <Image url="@bookingsBackground.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="704.0" layoutY="290.0" text="LAKE VIEW CASTLE KING ROOM">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="227.0" fitWidth="592.0" layoutX="674.0" layoutY="329.0" pickOnBounds="true">
+         <image>
+            <Image url="@lakeviewroomtext.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="442.0" layoutY="88.0" text="Single Bed Rooms" textFill="#c3a956">
+         <font>
+            <Font name="Times New Roman" size="53.0" />
+         </font>
+      </Label>
+      <Button layoutX="1116.0" layoutY="576.0" mnemonicParsing="false" onMouseClicked="#book" prefHeight="34.0" prefWidth="133.0" styleClass="btn" text="Book Now">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="504.0" layoutY="672.0" mnemonicParsing="false" onMouseClicked="#book" prefHeight="34.0" prefWidth="272.0" styleClass="btn" text="Explore All Rooms and Suites">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cdbf54" height="34.0" layoutX="654.0" layoutY="201.0" opacity="0.12" stroke="BLACK" strokeType="INSIDE" width="634.0" />
+      <Label layoutX="674.0" layoutY="210.0" text="RECOMMENDED FOR ALL TRAVELERS" textFill="#c3a956">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="565.0" layoutY="14.0" text="HOTEL TRANSYLVANIA" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="549.0" layoutY="35.0" opacity="0.33" prefHeight="3.0" prefWidth="192.0" />
+      <Label layoutX="584.0" layoutY="38.0" text="S  L  O  V  A  K  I  A" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <FontAwesomeIconView fx:id="back" fill="WHITE" glyphName="ARROW_LEFT" layoutX="18.0" layoutY="33.0" onMouseClicked="#backClicked" size="14.0" text="" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+      <FontAwesomeIconView fx:id="close" fill="WHITE" glyphName="CLOSE" layoutX="1265.0" layoutY="32.0" onMouseClicked="#closeWindow" size="14.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIconView>
+   </children>
+</AnchorPane>

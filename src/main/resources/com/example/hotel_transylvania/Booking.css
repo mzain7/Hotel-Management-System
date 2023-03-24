@@ -1,0 +1,14 @@
+.datePicker .icon{
+-mfx-color: #8F6620;
+}
+.datePicker{
+-fx-background-color: transparent;
+-fx-border-color:  #8F6620;
+-fx-border-width:  0px 0px 2px 0px;
+-fx-border-radius: 0px;
+-fx-text-fill: white;}
+
+.datePicker .floating-text {
+-fx-background-color: transparent;
+-fx-text-fill: #a9a9a9;
+}

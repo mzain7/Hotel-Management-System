@@ -1,0 +1,28 @@
+.root {
+  -fx-background-image: url("servciesBack.jpg");
+}
+
+btn {
+  -fx-border-radius: 4px;
+  -fx-background-color: #ffffff;
+  -fx-cursor: hand;
+}
+
+}
+
+.btn:hover {
+  -fx-background-color: #000000;
+  -fx-border-color: transparent transparent red transparent;
+  -fx-text-fill: white;
+}
+
+.button:hover {
+  -fx-background-color: #000000;
+  -fx-border-color: transparent transparent #8f740a transparent;
+  -fx-text-fill: white;
+}
+
+#servicesButton {
+  -fx-border-color: transparent transparent #8f740a transparent;
+  -fx-border-width: 1px;
+}

@@ -1,0 +1,27 @@
+.btn {
+  -fx-border-radius: 4px;
+  -fx-background-color: #ffffff;
+  -fx-cursor: hand;
+  -fx-background-color: rgba(0,0,0,0);
+}
+
+.btn:hover {
+  -fx-border-color: transparent transparent #cdbf54  transparent;
+}
+
+.otherBtn{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-color: #8f740a #8f740a #8f740a #8f740a;
+    -fx-text-fill: black;
+}
+.otherBtn:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #8f740a #8f740a #8f740a #8f740a;
+    -fx-text-fill: white;
+    -fx-background-color: #8f740a;
+}
+
+#bookButton {
+  -fx-border-color: transparent transparent #8f740a transparent;
+  -fx-border-width: 1px;
+}

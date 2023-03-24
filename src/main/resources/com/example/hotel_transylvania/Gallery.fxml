@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotel_transylvania.GalleryController">
+   <children>
+      <ScrollPane prefHeight="720.0" prefWidth="1280.0">
+         <content>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1994.0" prefWidth="1280.0" stylesheets="@Gallery.css">
+               <children>
+                  <ImageView fitHeight="550.0" fitWidth="1280.0" pickOnBounds="true" styleClass="btn">
+                     <image>
+                        <Image url="@galleryFront.jpg" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="-0.6" contrast="0.07" />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="bookButton" layoutX="147.0" layoutY="126.0" mnemonicParsing="false" onAction="#bookingBtn" style="-fx-background-color: rgba(0,0,0,0);" styleClass="btn" text="Booking" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="servicesButton" layoutX="445.0" layoutY="127.0" mnemonicParsing="false" onAction="#servicesBtn" styleClass="btn" text="Wellness" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="galleryButton" layoutX="710.0" layoutY="126.0" mnemonicParsing="false" styleClass="btn" text="Transylvania Gallery" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="usButton" layoutX="1097.0" layoutY="126.0" mnemonicParsing="false" onAction="#aboutBtn" styleClass="btn" text="About Us " textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="612.0" layoutY="29.0" text="HOTEL TRANSYLVANIA" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="610.0" layoutY="46.0" opacity="0.33" prefHeight="2.0" prefWidth="165.0" />
+                  <Label layoutX="639.0" layoutY="49.0" text="S  L  O  V  A  K  I  A" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="10.0" layoutY="199.0" opacity="0.26" prefHeight="0.0" prefWidth="1284.0" />
+                  <FontAwesomeIconView fx:id="back" fill="WHITE" glyphName="ARROW_LEFT" layoutX="24.0" layoutY="47.0" onMouseClicked="#backClicked" size="14.0" text="">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIconView>
+                  <FontAwesomeIconView fx:id="close" fill="WHITE" glyphName="CLOSE" layoutX="1241.0" layoutY="45.0" onMouseClicked="#closeWindow" size="14.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIconView>
+                  <Label layoutX="111.0" layoutY="441.0" text="THE TRANSYLVANIA GALLERY" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman" size="50.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="117.0" layoutY="510.0" prefWidth="200.0" />
+                  <Label layoutX="116.0" layoutY="420.0" text="HOTEL TRANSYLVANIA" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="272.0" fitWidth="477.0" layoutX="111.0" layoutY="696.0" onMouseClicked="#image1Clicked" pickOnBounds="true">
+                     <image>
+                        <Image url="@exterior-06.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="273.0" fitWidth="484.0" layoutX="710.0" layoutY="694.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@holiday-houses-15.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="272.0" fitWidth="477.0" layoutX="111.0" layoutY="1090.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@exterior-evening-02.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="272.0" fitWidth="477.0" layoutX="714.0" layoutY="1090.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@loading1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="272.0" fitWidth="477.0" layoutX="111.0" layoutY="1468.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@Castle-Tower-Living-Room-1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="272.0" fitWidth="477.0" layoutX="710.0" layoutY="1468.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@005_kilronan-snow-Stone-Sign.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" focusTraversable="true" height="244.0" layoutX="117.0" layoutY="710.0" stroke="WHITE" strokeType="INSIDE" width="463.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" focusTraversable="true" height="244.0" layoutX="717.0" layoutY="709.0" stroke="WHITE" strokeType="INSIDE" width="463.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" focusTraversable="true" height="244.0" layoutX="118.0" layoutY="1104.0" stroke="WHITE" strokeType="INSIDE" width="463.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" focusTraversable="true" height="244.0" layoutX="721.0" layoutY="1104.0" stroke="WHITE" strokeType="INSIDE" width="463.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" focusTraversable="true" height="244.0" layoutX="118.0" layoutY="1482.0" stroke="WHITE" strokeType="INSIDE" width="463.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" focusTraversable="true" height="244.0" layoutX="717.0" layoutY="1482.0" stroke="WHITE" strokeType="INSIDE" width="463.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="158.0" layoutX="-2.0" layoutY="1836.0" stroke="BLACK" strokeType="INSIDE" width="1282.0" />
+                  <Label layoutX="561.0" layoutY="1867.0" text="HOTEL TRANSYLVANIA" textFill="#a4933d">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="588.0" layoutY="1902.0" text="S  L  O  V  A  K  I  A" textFill="#a4933d">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <AnchorPane fx:id="imagePane" prefHeight="720.0" prefWidth="1280.0" visible="false">
+         <children>
+            <ImageView fx:id="image" fitHeight="552.0" fitWidth="1280.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

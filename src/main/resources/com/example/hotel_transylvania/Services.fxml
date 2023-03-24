@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotel_transylvania.ServicesController">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="720.0" prefWidth="1280.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane prefHeight="2484.0" prefWidth="1282.0" styleClass="root">
+               <children>
+                  <ImageView fitHeight="560.0" fitWidth="1280.0" layoutX="1.0" pickOnBounds="true" AnchorPane.bottomAnchor="1939.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@wellness.jpg" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="-0.61" />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="96.0" layoutY="400.0" text="HOTEL TRANSYLVANIA" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="91.0" layoutY="421.0" text="SPA &amp; WELLNESS" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman" size="56.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="357.0" fitWidth="609.0" layoutX="146.0" layoutY="834.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@The%20Peninsula%20Chicago%20SpaRelaxation%20Area%20guestd.jpg" />
+                     </image>
+                  </ImageView>
+                  <Separator layoutX="97.0" layoutY="502.0" prefWidth="200.0" />
+                  <Rectangle fill="WHITE" height="276.0" layoutX="755.0" layoutY="900.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="344.0" />
+                  <Rectangle fill="WHITE" height="27.0" layoutX="249.0" layoutY="1176.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="850.0" />
+                  <Label layoutX="799.0" layoutY="935.0" text="Transylvania Spa" textFill="#bfa40b">
+                     <font>
+                        <Font name="Arial Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="795.0" layoutY="962.0" prefHeight="19.0" prefWidth="283.0" text="Occupying the 19th and 20th floors of the hotel,">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="794.0" layoutY="979.0" prefHeight="19.0" prefWidth="306.0" text="The Transylvania Spa will have you feeling on top ">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="795.0" layoutY="996.0" prefHeight="19.0" prefWidth="275.0" text="of he world in more ways than one.">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="795.0" layoutY="1030.0" text="ENQUIRES">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="899.0" layoutY="1030.0" prefHeight="16.0" prefWidth="115.0" text="+1 312 337 2888">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="795.0" layoutY="1064.0" text="HOURS">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="888.0" layoutY="1064.0" text="Monday - Saturday">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="888.0" layoutY="1080.0" text="8:00 am - 8:45 pm">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="888.0" layoutY="1113.0" text="Sunday">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="887.0" layoutY="1129.0" text="8:00 am - 7:45 pm">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="357.0" fitWidth="609.0" layoutX="493.0" layoutY="1342.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@fitness.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fill="WHITE" height="276.0" layoutX="151.0" layoutY="1423.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="344.0" />
+                  <Rectangle fill="WHITE" height="27.0" layoutX="151.0" layoutY="1699.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="864.0" />
+                  <Label layoutX="190.0" layoutY="1452.0" text="Fitness Center" textFill="#bfa40b">
+                     <font>
+                        <Font name="Arial Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="191.0" layoutY="1480.0" prefHeight="19.0" prefWidth="283.0" text="Keeping fit has never been so inspiring. Floor-to-">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="190.0" layoutY="1496.0" prefHeight="19.0" prefWidth="268.0" text="ceiling windows with sweeping views over">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="190.0" layoutY="1514.0" prefHeight="19.0" prefWidth="262.0" text="Slovakia's breathtaking sky surround The">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="190.0" layoutY="1569.0" text="ENQUIRES">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="294.0" layoutY="1570.0" prefHeight="16.0" prefWidth="115.0" text="+1 312 573 6860">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="190.0" layoutY="1600.0" text="HOURS">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="283.0" layoutY="1600.0" text="Monday - Saturday">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="283.0" layoutY="1616.0" text="6:00 am to 9:00 pm">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="284.0" layoutY="1649.0" text="Sunday">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="283.0" layoutY="1665.0" text="6:00 am to 8:00 pm">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="188.0" layoutY="1533.0" prefHeight="19.0" prefWidth="275.0" text="Transylvania's state-of-the art fitness centre.">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="341.0" fitWidth="609.0" layoutX="151.0" layoutY="1912.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@pool.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fill="WHITE" height="276.0" layoutX="760.0" layoutY="1978.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="352.0" />
+                  <Rectangle fill="WHITE" height="27.0" layoutX="254.0" layoutY="2253.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="858.0" />
+                  <Label layoutX="804.0" layoutY="2013.0" text="Transylvania Pool" textFill="#bfa40b">
+                     <font>
+                        <Font name="Arial Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="800.0" layoutY="2040.0" prefHeight="19.0" prefWidth="283.0" text="The Hotel Transylvania's coveted outdoor pool">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="799.0" layoutY="2057.0" prefHeight="19.0" prefWidth="318.0" text="located in the Transylvania River, offers breathtaking">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="800.0" layoutY="2074.0" prefHeight="19.0" prefWidth="275.0" text="views of the waterscape of Transylvania.">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="800.0" layoutY="2108.0" text="ENQUIRES">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="904.0" layoutY="2108.0" prefHeight="16.0" prefWidth="115.0" text="+1 312 573 6860">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="800.0" layoutY="2142.0" text="HOURS">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="893.0" layoutY="2142.0" text="Monday - Saturday">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="893.0" layoutY="2158.0" text="8:00 am - 9:00 pm">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="893.0" layoutY="2191.0" text="Sunday">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="892.0" layoutY="2207.0" text="6:00 am - 8:00 pm">
+                     <font>
+                        <Font name="Berlin Sans FB" size="15.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="144.0" layoutY="2355.0" stroke="BLACK" strokeType="INSIDE" width="1280.0" />
+                  <Label layoutX="566.0" layoutY="23.0" text="HOTEL TRANSYLVANIA" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="585.0" layoutY="47.0" text="S  L  O  V  A  K  I  A" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="543.0" layoutY="38.0" prefHeight="12.0" prefWidth="200.0" styleClass="sep" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="154.0" layoutX="-1.0" layoutY="565.0" stroke="WHITE" strokeType="INSIDE" width="1279.0" />
+                  <Label layoutX="592.0" layoutY="662.0" text="SCROLL DOWN">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="634.0" layoutY="689.0" text="V">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="548.0" layoutY="607.0" text="SERVICES DETAILS">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="595.0" layoutY="2408.0" text="HOTEL TRANSYLVANIA" textFill="#948621">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="620.0" layoutY="2431.0" text="S  L  O  V  A  K  I  A" textFill="#948621">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fx:id="back" fill="WHITE" glyphName="ARROW_LEFT" layoutX="24.0" layoutY="47.0" onMouseClicked="#backClicked" size="14.0" text="">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIconView>
+                  <FontAwesomeIconView fx:id="close" fill="WHITE" glyphName="CLOSE" layoutX="1235.0" layoutY="40.0" onMouseClicked="#closeWindow" size="14.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIconView>
+                  <Button fx:id="bookButton" layoutX="187.0" layoutY="115.0" mnemonicParsing="false" onAction="#bookingBtn" style="-fx-background-color: rgba(0,0,0,0);" text="Booking" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="servicesButton" layoutX="435.0" layoutY="114.0" mnemonicParsing="false" style="-fx-background-color: rgba(0,0,0,0);" stylesheets="@Services.css" text="Wellness" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="galleryButton" layoutX="708.0" layoutY="115.0" mnemonicParsing="false" onMouseClicked="#galleryClicked" style="-fx-background-color: rgba(0,0,0,0);" text="Transylvania Gallery" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="usButton" layoutX="1044.0" layoutY="115.0" mnemonicParsing="false" onMouseClicked="#aboutClicked" style="-fx-background-color: rgba(0,0,0,0);" text="About Us " textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <Separator layoutX="-5.0" layoutY="178.0" opacity="0.22" prefHeight="2.0" prefWidth="1280.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
