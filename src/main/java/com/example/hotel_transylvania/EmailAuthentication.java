@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class EmailAuthentication {
     String to, otp;
-    String from = "mzain90909@gmail.com";
+    String from = "";
 
     public EmailAuthentication(String to) {
         this.to = to;
@@ -31,7 +31,7 @@ public class EmailAuthentication {
 
             Session session = Session.getInstance(properties,new javax.mail.Authenticator(){
                 protected PasswordAuthentication getPasswordAuthentication(){
-                    return new PasswordAuthentication("mzain90909@gmail.com","fejcpfdagtbulvrq");
+                    return new PasswordAuthentication("@gmail.com","");
                 }
             });
 
